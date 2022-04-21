@@ -1,0 +1,117 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+
+#sign-up{
+    width: 100%;
+    display: flex;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#sign-up .left-side{
+    width: 50%;
+    background-color: #232923;
+}
+
+#sign-up .left-side p{
+    font-size: 25px;
+    margin: 10% 5%;
+    font-weight: 600;
+}
+
+#sign-up .left-side .singup-form{
+    text-align: center;
+    margin: 10% 5%;
+}
+
+#sign-up .left-side .singup-form h1{
+    font-size: 40px;
+}
+
+#sign-up .left-side .singup-form p{
+    font-weight: 300;
+    font-size: 20px;
+    margin: 7% 6% 7% 6%;
+    color: #C1C1C1;
+}
+
+#sign-up .left-side .singup-form .input-fields .field {
+    background-color: #2C312C;
+    width: 350px;
+    margin: 15px auto;
+    height: 60px;
+    border-radius: 30px;
+        display: flex;
+    justify-content: space-around;
+}
+
+#sign-up .left-side .singup-form .input-fields .field:hover{
+    border: 1px solid #47D17E;
+}
+
+#sign-up .left-side .singup-form .input-fields .field input{
+    width: 250px;
+    font-size: 15px;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+}
+
+#sign-up .left-side .singup-form .input-fields .field input:focus{
+    outline: none;
+}
+
+#sign-up .left-side .singup-form .input-fields .field i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#sign-up .left-side .singup-form .signup-btn{
+    width: 175px;
+    height: 50px;
+    background-color: #47D17E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 7% auto;
+}
+
+#sign-up .left-side .singup-form .signup-btn:hover{
+    width: 195px;
+}
+
+#sign-up .left-side .singup-form .signup-btn a{
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+#sign-up .left-side .singup-form .bottom-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sign-up .left-side .singup-form .bottom-text p{
+    font-size: 15px;
+    margin: 0;
+}
+
+#sign-up .left-side .singup-form .bottom-text a{
+    cursor: pointer;
+    color: #47D17E;
+}
+
+#sign-up .left-side .singup-form .bottom-text a:hover{
+    color: #fff;
+}
+
+#sign-up .right-side img{
+    width: 100%;
+    height: 100vh;
+}
+
