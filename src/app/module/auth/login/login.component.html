@@ -1,5 +1,80 @@
-<p>
-  login works!
-</p>
 
-<a routerLink="/auth/signup">Sign Up</a>
+
+<html>
+
+<head>
+
+  <title>Log in</title>
+  <link rel="stylesheet" type="text/css" href="login.component.css">  
+</head>
+<body>
+  <h2>Login Page</h2><br> 
+  
+
+    <div class="login">  
+
+          <img src="loginedi.jpg" width="70" height="70" > <br><br>
+      
+    <form id="login" method="get" action="login.php">    
+        <label><b>Username or email address   </b>    
+        </label>    
+        <input type="text" name="Uname" id="Uname" placeholder="Username or Email Address">    
+        <br><br>    
+        <label><b>Password  </b>    
+        </label>    
+        <input type="Password" name="password" id="Pass" placeholder="Password">    
+        <br><br>
+          <a href="#" > Forgot Password</a>  <br>       
+          <input type="checkbox" id="check">    
+          <span>Remember me</span>  
+        <div class="loginbtn">
+          <input type="button" name="log"  value="Log In" style="background-color:  #68caeb;;"> 
+
+        </div>    
+          
+        <br><br>    
+        <h3 style="color: aliceblue;">If you are a<b>  NEW USER  </b> ,Please Sign Up</h3><br>
+<a href="/auth/signup/signup.component.html ">Sign Up</a>
+     <!--   <a routerLink="/auth/signup/signup.component.html">Sign Up</a>    -->   
+    </form>     
+</div>    
+
+
+
+
+
+
+
+
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
