@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SingleFoodItemComponent implements OnInit {
 
+  foodItemName = "Fried Rice"
+
   constructor() { }
 
   ngOnInit() {
