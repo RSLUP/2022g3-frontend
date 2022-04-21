@@ -7,8 +7,8 @@ import { HomeComponent } from './module/pages/home/home.component';
 import { SingleFoodItemComponent } from './module/pages/single-food-item/single-food-item.component';
 import { CheckOutComponent } from './module/pages/check-out/check-out.component';
 import { LoginComponent } from './module/auth/login/login.component';
-import { SignupComponent } from './module/auth/signup/signup.component';
 import { PageNotFoundComponent } from './module/pages/page-not-found/page-not-found.component';
+import { SignupComponent } from './module/auth/signup/signup.component';
 
 const routes: Routes = [
   {path: '', redirectTo: 'auth/login', pathMatch: 'full'},

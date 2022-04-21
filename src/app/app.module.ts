@@ -14,16 +14,16 @@ import { MainMenuComponent } from './module/pages/main-menu/main-menu.component'
 @NgModule({
   declarations: [
     AppComponent,
-
     HomeComponent,
     HeaderComponent,
     FooterComponent,
     MainMenuComponent
   ],
+  
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule
+    RouterModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
