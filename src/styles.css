@@ -1,1 +1,134 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-white{
+    color: white;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: #ff6b81;
+    text-decoration: none;
+}
+a:hover{
+    color: #ff4757;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: #ff6b81;
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: #ff4757;
+}
+h2{
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.5rem;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+.w3-row-padding{
+    padding: 0 8px;
+}
+
+.w3-center {
+    text-align: center!important;
+}
+
+.w3-small {
+    font-size: 12px!important;
+}
+
+.w3-col, .w3-half, .w3-third, .w3-twothird, .w3-threequarter, .w3-quarter {
+    float: left;
+    width: 100%;
+}
+
+.w3-col.m3 {
+    width: 24.99999%;
+}
+
+.w3-col.s12 {
+    width: 99.99999%;
+}
+
+.w3-block {
+    display: block;
+    width: 100%;
+}
+
+.w3-round, .w3-round-medium {
+    border-radius: 4px;
+}
+
+.ws-grey {
+    background-color: #E7E9EB!important;
+    color: black!important;
+}
+
+.w3-btn, .w3-button {
+    border: none;
+    /* display: inline-block; */
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    /* text-decoration: none;
+    color: inherit;
+    background-color: inherit; */
+    text-align: center;
+    cursor: pointer;
+    /* white-space: nowrap; */
+}
